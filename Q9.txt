@@ -1,0 +1,2 @@
+kubectl create ns dev
+kubectl create deploy --image=nginx --replicas=3 -n dev nginx-deploy
